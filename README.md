@@ -1,5 +1,7 @@
 # LEMP STACK on Docker
 
+## How it's work?
+
 - ## Create structur folder like this
 
   ```shell
@@ -357,7 +359,7 @@ MariaDB [(none)]>
   and result like this
 
   ![result](pictures/the&#32;final&#32;result.png)
-
+  
 
 # Like my content? Support me
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/kevinaltaf)
