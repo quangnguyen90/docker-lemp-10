@@ -123,7 +123,7 @@
 
   ```shell
   ├── README.md
-  ├── backup
+  ├── data
   │   ├── custom-image-php7.3
   │   │   └── Dockerfile
   │   └── mysql-data
@@ -167,13 +167,13 @@
       && docker-php-ext-enable --ini-name 20-zip.ini zip
   ```
 
-  We create new image php-custom:7.4-fpm-alpine in backup/custom-image-php7.4
+  We create new image php-custom:7.4-fpm-alpine in data/custom-image-php7.4
 
   wait for it to finish and make sure you are connected to the internet
   command like this:
 
   ```shell
-  docker build -t php-custom:7.4-fpm-alpine backup/custom-image-php7.4/
+  docker build -t php-custom:7.4-fpm-alpine data/custom-image-php7.4/
   ```
 
   **last Ouput like this**
