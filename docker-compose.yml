@@ -25,7 +25,7 @@ services:
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: local
-      MYSQL_PASSWORD: secret
+      MYSQL_PASSWORD: secret 
       MYSQL_DATABASE: mynewdb
     depends_on:
       - mysql
@@ -41,5 +41,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_USER: local
-      MYSQL_PASSWORD: secret
+      MYSQL_PASSWORD: secret 
       MYSQL_DATABASE: mynewdb
